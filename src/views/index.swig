@@ -7,7 +7,7 @@
 
 
 {% block script %}
-    <script src="jquery-1.11.2.js"></script>
+    <script src="http://design.yonyoucloud.com/static/jquery/1.11.2/jquery.js"></script>
     <script>
         window.isOpenTab = true;
     </script>
