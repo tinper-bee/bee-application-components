@@ -1,0 +1,270 @@
+{
+  "data":{
+    "msg": "操作成功！",
+    "data": [
+      {
+        "location": "pages/default/index.js",
+        "name": "首页",
+        "menustatus": "Y",
+        "children": null,
+        "icon": "iconfont icon-C-home",
+        "target": "wbalone",
+        "openview": "curnpage",
+        "menuId": "M0000000000002",
+        "urltype": "plugin",
+        "id": "index",
+        "isDefault": null,
+        "licenseControlFlag": 0
+      },
+      {
+        "location": null,
+        "name": "图表",
+        "menustatus": "Y",
+        "children": [
+          {
+            "location": null,
+            "name": "D3",
+            "menustatus": "Y",
+            "children": [
+              {
+                "location": "/ocm-web/pages/base/unit/unit.js",
+                "name": "关系图",
+                "menustatus": "Y",
+                "children": null,
+                "icon": " iconfont uf-settings",
+                "target": "wbalone",
+                "openview": "curnpage",
+                "menuId": "edcea88c775d411fa5de636a81a71633",
+                "urltype": "plugin",
+                "id": "Relation",
+                "isDefault": null,
+                "licenseControlFlag": 0
+              },
+              {
+                "location": "/ocm-web/pages/base/unit/unit.js",
+                "name": "拓扑图",
+                "menustatus": "Y",
+                "children": null,
+                "icon": " iconfont uf-settings",
+                "target": "wbalone",
+                "openview": "curnpage",
+                "menuId": "edcea88c775d411fa5de636a81a71633",
+                "urltype": "plugin",
+                "id": "Relation1",
+                "isDefault": null,
+                "licenseControlFlag": 0
+              },
+              {
+                "location": "/ocm-web/pages/base/unit/unit.js",
+                "name": "任务进度图",
+                "menustatus": "Y",
+                "children": null,
+                "icon": " iconfont uf-settings",
+                "target": "wbalone",
+                "openview": "curnpage",
+                "menuId": "edcea88c775d411fa5de636a81a71633",
+                "urltype": "plugin",
+                "id": "Relation1",
+                "isDefault": null,
+                "licenseControlFlag": 0
+              }
+            ],
+            "icon": " iconfont icon-appicon ",
+            "target": "wbalone",
+            "openview": "curnpage",
+            "menuId": "0f5e9fe706e042168f05e766d57d8e01",
+            "urltype": null,
+            "id": null,
+            "isDefault": null,
+            "licenseControlFlag": 0
+          }
+        ],
+        "icon": "uf uf-histogram-arrow-up",
+        "target": "wbalone",
+        "openview": "curnpage",
+        "menuId": "d229cbcb5f82485b8fedf517f0993631",
+        "urltype": null,
+        "id": null,
+        "isDefault": null,
+        "licenseControlFlag": 0
+      },
+      {
+        "location": null,
+        "name": "参照",
+        "menustatus": "Y",
+        "children": [
+          {
+            "location": null,
+            "name": "D3",
+            "menustatus": "Y",
+            "children": [
+              {
+                "location": "/ocm-web/pages/base/unit/unit.js",
+                "name": "关系图",
+                "menustatus": "Y",
+                "children": null,
+                "icon": " iconfont uf-settings",
+                "target": "wbalone",
+                "openview": "curnpage",
+                "menuId": "edcea88c775d411fa5de636a81a71633",
+                "urltype": "plugin",
+                "id": "Relation3",
+                "isDefault": null,
+                "licenseControlFlag": 0
+              }
+            ],
+            "icon": " iconfont icon-appicon ",
+            "target": "wbalone",
+            "openview": "curnpage",
+            "menuId": "0f5e9fe706e042168f05e766d57d8e01",
+            "urltype": null,
+            "id": null,
+            "isDefault": null,
+            "licenseControlFlag": 0
+          }
+        ],
+        "icon": "uf uf-copy",
+        "target": "wbalone",
+        "openview": "curnpage",
+        "menuId": "d229cbcb5f82485b8fedf517f09936e1",
+        "urltype": null,
+        "id": null,
+        "isDefault": null,
+        "licenseControlFlag": 0
+      },
+      {
+        "location": null,
+        "name": "表单",
+        "menustatus": "Y",
+        "children": [
+          {
+            "location": null,
+            "name": "D3",
+            "menustatus": "Y",
+            "children": [
+              {
+                "location": "/ocm-web/pages/base/unit/unit.js",
+                "name": "关系图",
+                "menustatus": "Y",
+                "children": null,
+                "icon": " iconfont uf-settings",
+                "target": "wbalone",
+                "openview": "curnpage",
+                "menuId": "edcea88c775d411fa5de636a81a71633",
+                "urltype": "plugin",
+                "id": "Relation",
+                "isDefault": null,
+                "licenseControlFlag": 0
+              }
+            ],
+            "icon": " iconfont icon-appicon ",
+            "target": "wbalone",
+            "openview": "curnpage",
+            "menuId": "0f5e9fe706e042168f05e766d57d8e01",
+            "urltype": null,
+            "id": null,
+            "isDefault": null,
+            "licenseControlFlag": 0
+          }
+        ],
+        "icon": "uf uf-files-o",
+        "target": "wbalone",
+        "openview": "curnpage",
+        "menuId": "d229cbcb5f82485b8fedf517f09936dee",
+        "urltype": null,
+        "id": null,
+        "isDefault": null,
+        "licenseControlFlag": 0
+      },
+      {
+        "location": null,
+        "name": "图形",
+        "menustatus": "Y",
+        "children": [
+          {
+            "location": null,
+            "name": "D3",
+            "menustatus": "Y",
+            "children": [
+              {
+                "location": "/ocm-web/pages/base/unit/unit.js",
+                "name": "关系图",
+                "menustatus": "Y",
+                "children": null,
+                "icon": " iconfont uf-settings",
+                "target": "wbalone",
+                "openview": "curnpage",
+                "menuId": "edcea88c775d411fa5de636a81a71633",
+                "urltype": "plugin",
+                "id": "Relation",
+                "isDefault": null,
+                "licenseControlFlag": 0
+              }
+            ],
+            "icon": " iconfont icon-appicon ",
+            "target": "wbalone",
+            "openview": "curnpage",
+            "menuId": "0f5e9fe706e042168f05e766d57d8e01",
+            "urltype": null,
+            "id": null,
+            "isDefault": null,
+            "licenseControlFlag": 0
+          }
+        ],
+        "icon": "uf uf-4leaf",
+        "target": "wbalone",
+        "openview": "curnpage",
+        "menuId": "d229cbcb5f82485b8fedf517f09936de",
+        "urltype": null,
+        "id": null,
+        "isDefault": null,
+        "licenseControlFlag": 0
+      },
+      {
+        "location": null,
+        "name": "表格",
+        "menustatus": "Y",
+        "children": [
+          {
+            "location": null,
+            "name": "D3",
+            "menustatus": "Y",
+            "children": [
+              {
+                "location": "/ocm-web/pages/base/unit/unit.js",
+                "name": "关系图",
+                "menustatus": "Y",
+                "children": null,
+                "icon": " iconfont uf-settings",
+                "target": "wbalone",
+                "openview": "curnpage",
+                "menuId": "edcea88c775d411fa5de636a81a71633",
+                "urltype": "plugin",
+                "id": "Relation",
+                "isDefault": null,
+                "licenseControlFlag": 0
+              }
+            ],
+            "icon": " iconfont icon-appicon ",
+            "target": "wbalone",
+            "openview": "curnpage",
+            "menuId": "0f5e9fe706e042168f05e766d57d8e01",
+            "urltype": null,
+            "id": null,
+            "isDefault": null,
+            "licenseControlFlag": 0
+          }
+        ],
+        "icon": "uf uf-table",
+        "target": "wbalone",
+        "openview": "curnpage",
+        "menuId": "d229cbcb5f82485b8fsdf",
+        "urltype": null,
+        "id": null,
+        "isDefault": null,
+        "licenseControlFlag": 0
+      }
+    ],
+    "status": 1
+  }
+}
