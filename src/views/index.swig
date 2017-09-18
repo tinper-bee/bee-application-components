@@ -11,7 +11,7 @@
     <script>
         window.isOpenTab = true;
     </script>
-    <script src="//d3js.org/d3.v3.min.js"></script>
+    <script src="//cdn.bootcss.com/d3/3.5.17/d3.min.js"></script>
 {% endblock %}
 
 
