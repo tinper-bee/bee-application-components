@@ -2,7 +2,7 @@ import React,{Component,PropTypes} from 'react';
 import {Row, Col, Tile,Select} from 'tinper-bee';
 var server25 = require('./assets/icon_svg/server25.svg');
 var server25_hover = require('./assets/icon_svg/server25-hover.svg');
-require('./index.css');
+require('./assets/css/index.css');
 
 class MainPage extends Component {
 

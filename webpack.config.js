@@ -52,16 +52,9 @@ module.exports = {
         contentBase: './dist',
         port: 8080,
         proxy: {
-            '/portal': {
-                target: 'http://developer.yyuap.com',
-                pathRewrite: {'^/column' : '/column'},
-                changeOrigin: true
+            '**': {
+                target: 'http://localhost:8090',
             },
-            '/fe':{
-                target: 'http://developer.yyuap.com',
-                pathRewrite: {'^/column' : '/column'},
-                changeOrigin: true
-            }
         }
     },
     entry: {

@@ -3,6 +3,8 @@
 {% block css %}
     <link href="//developer.yyuap.com/portal/index.css" rel="stylesheet" media="screen">
     <link href="//design.yonyoucloud.com/static/yunicon/iconfont.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <link rel="stylesheet" href="//highlightjs.org/static/demo/styles/atom-one-dark.css">
 {% endblock %}
 
 
@@ -12,6 +14,10 @@
         window.isOpenTab = true;
     </script>
     <script src="//cdn.bootcss.com/d3/3.5.17/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>
+
+    </script>
 {% endblock %}
 
 

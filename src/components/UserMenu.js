@@ -19,8 +19,6 @@ class UserMenus extends Component {
             userMenus:[]
         };
 
-
-
     }
     formmaterUrl(item) {
         var uri = " ";

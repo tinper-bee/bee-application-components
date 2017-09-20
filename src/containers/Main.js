@@ -1,5 +1,5 @@
 import React,{Component} from 'react';
-import {Navbar,Badge,Tile,Icon,Tooltip} from 'tinper-bee';
+import {Navbar,Col,Badge,Tile,Icon,Tooltip,Panel} from 'tinper-bee';
 require('../assets/iconfont/qy-iconfont/iconfont.css');
 
 var classNames = require('classnames');
@@ -513,7 +513,6 @@ class App extends Component {
         var self = this;
         self.resizeIfr();
         self.menubar();
-        self.confirm();
     }
 
     componentWillMount() {
@@ -2401,24 +2400,7 @@ class App extends Component {
         console.log(e);
     }
     confirm(){
-        window.onbeforeunload = function() {
-            var tabs = JSON.parse(sessionStorage['tabs'])
-            if(tabs.length>1) {
-                return '关闭后您打开的页签数据会自动清空'
-            }
-        };
-        window.onunload = function (event) {
 
-            if(event.clientX<=0 && event.clientY<0) {
-                sessionStorage.clear();
-            }
-            else {
-                if(location.href.match(/login\/login.html/ig)!=null){
-                    sessionStorage.clear();
-                }
-            }
-
-        }
     }
 
     render() {
@@ -2662,18 +2644,18 @@ class App extends Component {
 
                 <div id="content" >
                     <div className="content">
-                    {
-                        this.state.menus.map(function (item,index) {
-                            var match = /.*(#\/ifr\/)/ig;
-                            var selected = self.state.current==item.id?"ifr-selected":"";
+                        {
+                            this.state.menus.map(function (item,index) {
+                                var match = /.*(#\/ifr\/)/ig;
+                                var selected = self.state.current==item.id?"ifr-selected":"";
 
-                            item.router = decodeURIComponent(decodeURIComponent(item.router.replace(match,'')));
+                                item.router = decodeURIComponent(decodeURIComponent(item.router.replace(match,'')));
 
-                            return (
-                                <iframe className={'ifr-tabs '+selected} id={item.id}  src={item.router} style={{width:'100%',border:'0'}}></iframe>
-                            )
-                        })
-                    }
+                                return (
+                                    <iframe className={'ifr-tabs '+selected} id={item.id}  src={item.router} style={{width:'100%',border:'0'}}></iframe>
+                                )
+                            })
+                        }
                     </div>
                 </div>
 
